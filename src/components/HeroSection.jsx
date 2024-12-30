@@ -11,21 +11,21 @@ const HeroSection = () => {
           <h1 className="text-3xl sm:text-4xl font-bold leading-tight">
             If AI can search your job, then{" "}
             <div className="mt-4">
-              <span className="text-black bg-red-400 px-2 py-1 rounded-md">
+              <span className="text-black bg-red-400 px-2 py-1 rounded-2xl">
                 hireHQ
               </span>{" "}
               is your tool
             </div>
           </h1>
-          <p className="mt-4 text-gray-600 text-sm sm:text-base">
+          <p className="mt-4 text-gray-600 text-xs">
             Super awesome job searching experience is awaiting you. Once upon a
             time there were many such platforms all which are awaited for you.
             You can feel free to come and sign up.
           </p>
 
           {/* Job Cards Section */}
-          <div className="mt-6 space-y-4">
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-8">
+          <div className="mt-20 space-y-10">
+            <div className="flex flex-col sm:flex-row gap-5 sm:gap-8">
               <JobCard
                 logo="/google.png"
                 title="Front End Developer"
@@ -45,7 +45,7 @@ const HeroSection = () => {
                 customStyle="bg-[#FDF9DD]"
               />
             </div>
-            <div className="flex justify-center sm:justify-start mt-4">
+            <div className="flex justify-center  mt-4">
               <JobCard
                 logo="/john-deere.png"
                 title="UI/UX Designer"
@@ -53,7 +53,7 @@ const HeroSection = () => {
                 salary="$120/hour"
                 color="green-100"
                 rotation="rotate-0"
-                customStyle="w-64 bg-[#EFFDDD]"
+                customStyle="w-64  bg-[#EFFDDD]"
               />
             </div>
           </div>

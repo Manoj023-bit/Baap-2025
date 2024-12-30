@@ -21,7 +21,7 @@ const Navbar = () => {
           <input
             type="text"
             placeholder="Search Job in Los Angeles"
-            className="w-full px-3 py-2 pl-10 rounded-full border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 text-[12px]"
+            className="w-full px-3 py-2 pl-10 rounded-full border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 text-xs"
           />
           {/* Search Icon */}
           <span className="absolute inset-y-0 left-3 flex items-center text-gray-500">
@@ -31,13 +31,13 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <nav className="flex space-x-4 mt-2 md:mt-0 text-gray-700">
-          <a href="#all-jobs" className="hover:text-black text-[12px]">
+          <a href="#all-jobs" className="hover:text-black text-xs">
             All Jobs
           </a>
-          <a href="#for-employers" className="hover:text-black text-[12px]">
+          <a href="#for-employers" className="hover:text-black text-xs">
             For Employers
           </a>
-          <a href="#help" className="hover:text-black text-[12px]">
+          <a href="#help" className="hover:text-black text-xs">
             Help?
           </a>
         </nav>

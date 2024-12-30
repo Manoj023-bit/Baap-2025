@@ -25,8 +25,8 @@ const JobCard = ({
       {/* Job Details */}
       <div>
         <h3 className="text-lg font-bold">{title}</h3>
-        <p className="text-sm text-gray-600">{company}</p>
-        <p className="text-sm font-semibold text-blue-500">{salary}</p>
+        <p className="text-xs text-gray-600">{company}</p>
+        <p className="text-xs font-semibold text-blue-500">{salary}</p>
       </div>
     </div>
   );

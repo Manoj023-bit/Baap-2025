@@ -4,12 +4,12 @@ const SignUpForm = () => {
   return (
     <div className="relative flex flex-col justify-end [height:500px] ">
       <div className="absolute top-1 right-1 bg-purple-500 text-white p-2 rounded-lg shadow-md w-56 transform rotate-[-20deg]">
-        <h2 className="text-[12px] font-semibold text-center">
+        <h2 className="text-xs font-semibold text-center">
           Get in touch with us to implement your next idea. Or change your
           business with AI.
         </h2>
       </div>
-      <div className=" absolute top-10 right-56 ">
+      <div className=" absolute top-11 right-56 ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="123.77"
@@ -51,30 +51,30 @@ const SignUpForm = () => {
       <div className="bg-white p-4 rounded-lg shadow-md w-64 relative z-10 mb-6 ml-auto ">
         {/* Aligned to the right */}
         <h2 className="text-lg font-semibold mb-2">Get Started</h2>
-        <p className="text-gray-600 mb-2 text-sm">
+        <p className="text-gray-600 mb-2 text-xs">
           Please create your account to setup with hireHQ.
         </p>
         <form className="space-y-3">
           <input
             type="email"
             placeholder="Email or Username"
-            className="w-full px-3 py-1 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+            className="w-full px-3 py-1 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-xs"
           />
           <input
             type="password"
             placeholder="Password"
-            className="w-full px-3 py-1 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+            className="w-full px-3 py-1 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-xs"
           />
           <div className="flex items-center space-x-1">
             <input type="checkbox" id="remember" />
-            <label htmlFor="remember" className="text-gray-600 text-sm">
+            <label htmlFor="remember" className="text-gray-600 text-xs">
               Remember me
             </label>
           </div>
-          <button className="bg-blue-500 text-white py-1 pr-2 pl-1 rounded-lg hover:bg-blue-600 text-sm">
+          <button className="bg-blue-500 text-white py-1 pr-2 pl-1 rounded-lg hover:bg-blue-600 text-xs">
             <i className="fa-regular fa-circle-check p-1"></i> Sign Up
           </button>
-          <p className="text-center text-gray-600 mt-2 text-[12px]">
+          <p className="text-center text-gray-600 mt-2 text-xs">
             hireHQ is a platform for all types of job search across United
             States and Europe
           </p>
